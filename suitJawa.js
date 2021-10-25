@@ -31,6 +31,8 @@ if(player=='gajah' || player=='orang' || player=='semut'){
 
 alert('Anda memilih: '+player+'\nComputer memilih: '+com+'\nAnda '+hasil);
 
+} else if(player==''){
+    alert('Silakan masukkan kata kunci terlebih dahulu')
 } else {
 
     alert('Anda memasukkan kata kunci yang salah')
